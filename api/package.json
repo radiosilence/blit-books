@@ -1,0 +1,21 @@
+{
+  "name": "blit-books-api",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "git@github.com:radiosilence/books.git",
+  "author": "James Cleveland",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.22",
+    "ts-node": "^9.1.1"
+  }
+}
